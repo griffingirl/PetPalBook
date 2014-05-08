@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pet Community</title>
+    
+     
+       <link rel="stylesheet" type="text/css" href="Main.css"/> 
+        
+   
+    <script>
+
+      var bounceStep = 0;
+      var hasEmail = false;
+
+      function highlite() {
+        alert("here");
+      }
+
+      function inflate(icon) {
+        if (icon === "marketplace") {
+        } else if (icon === "bios") {
+          event.srcElement.style.width = "80px";
+          event.srcElement.style.height = "100px";
+          event.srcElement.style.backgroundColor = "blue"
+          event.srcElement.innerHTML = "it worked";
+        }
+      }
+
+
+      function deflate(icon) {
+        if (icon === "marketplace") {
+        } else if (icon === "bios") {
+          event.srcElement.style.width = "65px";
+          event.srcElement.style.height = "65px";
+          event.srcElement.style.backgroundColor = "#0094ff"
+          event.srcElement.innerHTML = "";
+        }
+      }
+
+      function afterload() {
+        var myVar = setInterval(function () { bounceEmail() }, 300);
+        var myVar = setInterval(function () { bounceEmail2() }, 300);
+      }
+
+      function bounceEmail() {
+        document.getElementById("testvalues").value = "test value = " + bounceStep++;
+      }
+
+      function bounceEmail2() {
+        document.getElementById("testvalues").value = "test value = " + bounceStep++;
+      }
+
+    </script>
+
+</head>
+<body onload="afterload()" style="background-color:#eece8b">
+
+    <!--header-->
+    <div id="pageheader" style="padding: 5px; width:100%;height:82px; background-color:#4d1f00; font-weight:bold; color:#0094ff">
+       
+        
+
+        <div id="logo" class ="subsitetabs" style="background-color:#0094ff; z-index:-1">
+            <div id="greenSqaure" style="background-color:#00ff21;height:55px; width:55px; z-index:0">
+                <div id="redSquare" style="background-color:#f62f02;height:45px;width:45px;z-index:1">
+                    <div id="yellowSquare" style="background-color:yellow;height:35px;width:35px;z-index:2">PS</div>
+                </div>
+            </div> 
+        </div>
+        <!--<div id="bios" class ="subsitetabs" style="background-color:#0094ff;onmouseover="javascript:inflate('bios')" onmouseout ="javascript:deflate('bios')"></div>
+        <div id="marketplace" class ="subsitetabs"style="background-color:#00ff21"></div>
+        <div id="meetup" class="subsitetabs" style="background-color:#ffd800;"></div>
+        <div id="pettube" class="subsitetabs"style="background-color:#f62f02;"></div>-->
+        <div id="spacer" style="background-color:##4d1f00;width:10px;height:65px;float:left;overflow:hidden">
+
+
+    <div id="spacerspan" style="width:100%;height:20px;float:none;overflow:hidden"></div>
+
+        </div>
+         <div id="login" style="float:left; padding-top:5px; align:left;width: 222px; height: 82px;"> 
+            <div id="usernamelabel" style="width:75px; height:20px;float:left;overflow:hidden">Username</div>
+            <div id="usernametext" style="width:78px; height:23px; float:left;overflow:hidden"><input type="textbox" style="height: 12px; width: 121px;" /></div>       
+            <div id="passwordlabel" style="width:75px; height:20px; float:left;overflow:hidden">Password</div>
+            <div id="passwordtext" style="width:79px; height:20px;float:left;overflow:hidden"><input type="textbox" style="height: 10px; width: 121px;" /></div>
+            
+            <div id="button" style="float:none; width:40px; height:38px; overflow:hidden"><button type="button" style="height: 20px; width: 41px; background-color:#47e070" />Login</div>
+
+        </div>
+        <div id="news" class ="subsitetabs"; style="background-color:#4d1f00;float:right">
+            <img src="statusbar.jpeg" style="padding-top:20px; height: 11px; width: 135px;" />
+        </div>
+        <div id="event" class="subsitetabs" style="background-color:#4d1f00; float:right">
+            <img src="notification.jpeg" style=" height:32px; width:35px; padding-top:8px" />
+        </div>
+        <div id ="mail" class="subsitetabs" style="background-color:#4d1f00; float:right">
+            </a>
+        &nbsp;<img src="mail.jpeg"style=" height:28px; width:40px; padding-top:10px"></div>
+    <!--login div-->
+       
+        
+
+        <div id="register" style="float:left; width: 73px;"><button type="button" style="height: 30px; width: 62px; background-color:#e42020" />Register!</div>
+       
+        
+
+    </div>
+
+
+    <!--content-->
+
+    <div id="Div1" style="width: 100%; height: 20px; float: none; overflow: hidden"></div>
+
+
+    <div id="pagecontentheader" style="width:100%;float:left;overflow:hidden">
+        <div id="Div2" style="width:4%;height:10px;float:left;overflow:hidden"></div>
+
+        <div id="petprofile" class="subsiteboxlink" onclick="javascript:location.href='petprofile.html'">
+            <div id="titlebox1" style="float:left;width:100%;background-color:#0094ff">Pet Profile</div>
+            <a href="petprofile.html"> 
+            <img src="/Images/pet.gif" style=" height:200px"/></a>          
+        </div>
+        <div id="spacer0" style="width:4%;height:10px;float:left; overflow:hidden;">&nbsp</div>
+        <div id="petmeetup" class="subsiteboxlink"; style="background-color:#00ff21"; onclick="javascript:location.href='petprofile.html'">
+            <div id="titlebox2" style="float:left;width:100%;background-color:#00ff21">Pet Meetup</div>
+            <a href="petMeetup.html"> 
+            <img src="/Images/pet.gif" style=" height:200px; width: 201px;"/></a> 
+            </div>
+        <div id="spacer2" style="width:4%;height:10px;float:left; overflow:hidden;">&nbsp</div>
+        <div id="petmarketplace" class="subsiteboxlink" style="background-color:yellow;onclick="javascript:location.href='petprofile.html'">
+            <div id="titlebox3" style="float:left;width:100%;background-color:yellow">Pet Marketplace</div>
+            <a href="petMarketplace.html"> 
+            <img src="/Images/pet.gif" style=" height:200px"/></a> 
+            </div>
+        <div id="spacer3" style="width:4%;height:10px;float:left; overflow:hidden">&nbsp</div>
+         <div id="petTube" class = "subsiteboxlink" style="background-color:#f62f02;onclick="javascript:location.href='petprofile.html'">
+            <div id="titlebox4" style="float:left;width:100%;background-color:#f62f02">Pet Tube</div>
+             <a href="petTube.html"> 
+            <img src="/Images/pet.gif" style=" height:200px; width: 201px;"/></a> 
+            </div>
+        <div id="spacer4" style="width:4%;height:10px;float:left; overflow:hidden">&nbsp</div>
+        
+    </div>
+
+    
+   <input type='text' id='testvalues' style='height:100px;width:200px' value="2"/>
+    
+</body>
+</html>
+
