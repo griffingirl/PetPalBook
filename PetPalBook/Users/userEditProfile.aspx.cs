@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace PetPalBook.Users
 {
-  public partial class userProfile : System.Web.UI.Page
+  public partial class userEditProfile : System.Web.UI.Page
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-     // lblWelcome.Text = Session["firstname"].ToString() + " " + Session["lastname"].ToString();
+
     }
   }
 }

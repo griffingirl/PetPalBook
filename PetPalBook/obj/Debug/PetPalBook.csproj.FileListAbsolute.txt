@@ -1,5 +1,5 @@
-D:\development\PetPalBook\PetPalBook\obj\Debug\PetPalBook.csprojResolveAssemblyReference.cache
 D:\development\PetPalBook\PetPalBook\bin\PetPalBook.dll
 D:\development\PetPalBook\PetPalBook\bin\PetPalBook.pdb
 D:\development\PetPalBook\PetPalBook\obj\Debug\PetPalBook.dll
 D:\development\PetPalBook\PetPalBook\obj\Debug\PetPalBook.pdb
+D:\Development\PetPalBook\PetPalBook\obj\Debug\PetPalBook.csprojResolveAssemblyReference.cache

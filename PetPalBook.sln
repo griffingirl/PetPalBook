@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetPalBook", "PetPalBook\Pe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CortexFlex", "..\CortexFlex\CortexFlex.csproj", "{CFADEC9E-4936-448C-94A2-A398343A59FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseHTML5", "..\InverseHTML5\InverseHTML5.csproj", "{199FBC86-405C-4EBF-A48D-D33BFF294A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{CFADEC9E-4936-448C-94A2-A398343A59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFADEC9E-4936-448C-94A2-A398343A59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFADEC9E-4936-448C-94A2-A398343A59FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199FBC86-405C-4EBF-A48D-D33BFF294A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199FBC86-405C-4EBF-A48D-D33BFF294A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199FBC86-405C-4EBF-A48D-D33BFF294A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199FBC86-405C-4EBF-A48D-D33BFF294A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

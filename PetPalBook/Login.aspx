@@ -16,20 +16,24 @@
     <tr>
       <td><asp:Label ID="lblUsername" runat="server" Text="Username:" Width="100px"></asp:Label></td>
       <td><asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></td>
+      <td>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUsername" ErrorMessage="Username required" Display="Dynamic"></asp:RequiredFieldValidator>
+      </td>
     </tr><tr>
       <td><asp:Label ID="Label1" runat="server" Text="Password:" Width="100px"></asp:Label></td>
       <td><asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></td>
+      <td>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPassword" ErrorMessage="Password Required" Display="Dynamic"></asp:RequiredFieldValidator>
+      </td>
     </tr>
     </table>
     <br/>
     
     <asp:Button ID="butLogin" runat="server" Text="Login" Width="88px" OnClick="Button1_Click" />
 
-    <asp:TextBox ID="txtTest" runat="server"></asp:TextBox>
-
     <br />
     <br />
-    <asp:Label ID="lblErrorMessages" runat="server" Text="Label"></asp:Label>
+    <asp:Label ID="lblErrorMessages" runat="server" Text="[this is where errors messages go]"></asp:Label>
 
     </div>
 

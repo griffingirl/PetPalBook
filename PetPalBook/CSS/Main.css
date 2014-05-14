@@ -1,24 +1,42 @@
-﻿ .subsiteboxlink {
-            width:20%;
-            height:200px;
-            background-color:#0094ff;
-            float:left;
-            overflow:hidden;
-            cursor:pointer
-        }
-
-        .subsitetabs {
-            /*background-color:#fff;*/
-            width:85px;
-            height:78px;
-            float:left;
+﻿.subsiteboxlink {
+  width:20%;
+  height:200px;
+  background-color:#0094ff;
+  float:left;
+  overflow:hidden;
+  cursor:pointer
+}
+    
+.subsitetabs {
+  /*background-color:#fff;*/
+  width:85px;
+  height:100%;
+  float:left;
             overflow:hidden;
             border:1px solid white;
         }
 
-        .selectedSiteTab {
+  .selectedSiteTab {
             width:85px;
             height:87px;
             float:left;
 
         }
+
+  .logoTab {
+          height: 92px;
+          width: 162px;
+          float: left;
+        }
+
+  th,td {
+        padding:15px;
+        }
+
+  div {
+        background-color:#d1e3f1
+  }
+
+  body {
+        background-color:black;
+}

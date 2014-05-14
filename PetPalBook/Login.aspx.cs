@@ -28,8 +28,6 @@ namespace PetPalBook
         MySqlConnection myConnection = new MySqlConnection();
         myConnection.ConnectionString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
 
-        txtTest.Text = sqlstring;
-
         MySqlDataAdapter da = new MySqlDataAdapter(sqlstring, myConnection);
         DataSet ds = new DataSet();
 
